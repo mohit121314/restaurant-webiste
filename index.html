@@ -45,19 +45,15 @@ p {
   -webkit-transition: height .5s;
   -moz-transition: height .5s;
 }
-
 small {
   opacity: 0;
 }
-
 .show-description p {
   height: 150px;
 }
-
 .show-description small {
   opacity: 1;
 }
-
 .first{
   background-image: url("chicken.jpg");
 }
@@ -72,43 +68,38 @@ small {
 }
 @media (max-width: 500px) {
   h1 {
-    font-size: 50px;
-    margin-top: 20px;
+    font-size: 51px;
+    margin-top: 21px;
     line-height: 40px;
   }
   h2 {
-    font-size: 20px;
+    font-size: 21px;
     margin: 20px 0 30px 0;
   }
   div {
     margin: 20px 12px 0 12px;
   }
   p {
-    font-size: 20px;
-    line-height: 24px;
+    font-size: 21px;
+    line-height: 25px;
   }
   small {
-    font-size: 16px;
+    font-size: 18px;
   }
 }
-
 </style>
-
 </head>
-
 <body>
-<h1>Mohit's restaurant</h1>
+<h1>Hardik's restaurant</h1>
 <h2>an indian eatery</h2>
 <div class="first">
   <p>Chicken Tandoori <span class="price">Rs.500</span><br />
   <small>Mustard sierra leone bologi kale chard beet greens black-eyed pea sorrel amaranth garlic tigernut spring onion summer purslane asparagus lentil. </small></p>
 </div>
-
 <div class="second">
   <p>Bread Sandwitch<span class="price">Rs.700</span><br />
   <small>Tri-tip capicola kielbasa salami brisket chicken rump strip steak drumstick. Meatloaf chuck boudin ribeye pork jowl. Andouille bacon jowl meatloaf pork loin prosciutto bresaola.</small></p>
-</div>
-  
+</div>  
 <div class="dessert">
   <p>Chicken Legs Masala <span class="price">Rs.600</span><br />
   <small>Lollipop tart cotton candy jelly-o carrot cake apple pie cupcake. Jelly-o bear claw ice cream candy canes.</small></p>
@@ -118,7 +109,5 @@ small {
   $('div').on('click',function() { $(this).toggleClass('show-description');
   });
 </script>
-
-
 </html>
 
